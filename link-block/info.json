@@ -1,0 +1,30 @@
+{
+	"packageName": "upmc-link-block",
+	"name": "link-block",
+	"version": "1.0.1",
+	"moduleName": "Link Block",
+	"id": 13,
+	"type": "template",
+	"patternTypeId": 2,
+
+	"howToInstall": "npm install upmc-link-block --save",
+	"howToImport": "import { LinkBlockModule } from '.upmc-link-block';",
+	"howToUse": "<upmc-link-block [data]=\"model?.dataJSON\"></upmc-link-block>",
+
+	"options": null,
+	"optionsDescription": null,
+	"parametersDescription": [{
+		"name": "[data]",
+		"description":"required, JSON data from server, see more on \"DATA\" tab."
+	}],
+
+	"dataJSON": {
+        "title": "Link Block Title",
+				"background": "#35844d",
+				"imageUrl":"http://localhost:4300/app/shared/test-server/icons/link.png",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti distinctio perferendis, consectetur nam libero.",
+				"linkText": "Call To Action",
+				"linkHref": "/#/templates/upmc-link-block",
+        "key": "link-block"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "upmc-link-block",
+  "version": "0.0.2",
+  "description": "Cp template",
+  "main": "index.js",
+  "typings": "./index.d.ts"
+}
